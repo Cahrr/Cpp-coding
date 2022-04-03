@@ -27,13 +27,12 @@ void showPerson(Addressbooks * abs)
     }
 }
 
-int main()
-{
-    Addressbooks abs;
-    abs.size = 0;
-    addPerson(&abs);
-    pause();
-    showPerson(&abs);
-    return 0;
-
-}
+// int main()
+// {
+//     Addressbooks abs;
+//     abs.size = 0;
+//     addPerson(&abs);
+//     pause();
+//     showPerson(&abs);
+//     return 0;
+// }
