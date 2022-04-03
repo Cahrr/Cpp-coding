@@ -2,6 +2,8 @@
 #include <string>
 #include "showMenu.h"
 #include "addPerson.h"
+#include "showPerson.h"
+
 using namespace std;
 
 int main(){
@@ -39,8 +41,9 @@ int main(){
             break;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
         }
     }
-    return 0;
     
+    return 0;
+
 }
 
 

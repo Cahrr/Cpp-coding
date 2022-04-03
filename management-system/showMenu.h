@@ -1,7 +1,6 @@
-#include<iostream>
-#include<unistd.h>
-#include<string>
-#include<math.h>
+#include <iostream>
+#include <unistd.h>
+#include <string>
 using namespace std;
 
 void showMenu()
