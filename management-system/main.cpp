@@ -3,6 +3,7 @@
 #include "showMenu.h"
 #include "addPerson.h"
 #include "showPerson.h"
+#include "deletePerson.cpp"
 
 using namespace std;
 
@@ -24,8 +25,10 @@ int main(){
                 addPerson(&abs);
                 break;
             case 2: // 显示联系人
+                showPerson(&abs);
                 break;
             case 3: // 删除联系人
+                
                 break;
             case 4: // 查找联系人
                 break;
