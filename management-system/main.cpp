@@ -19,7 +19,7 @@ int main(){
         
         cin >> select;
 
-        switch(select)
+        switch(select) 
         {
             case 1: // 添加联系人
                 addPerson(&abs);
@@ -28,7 +28,7 @@ int main(){
                 showPerson(&abs);  
                 break;
             case 3: // 删除联系人
-                
+                deletePerson(&abs);
                 break;
             case 4: // 查找联系人
                 break;

@@ -2,7 +2,7 @@
 #include <string>
 #include <stdio.h>
 #include <unistd.h>
-using namespace std;
+using namespace std; 
 
 // 通讯录最大人数
 #define MAX 1000
