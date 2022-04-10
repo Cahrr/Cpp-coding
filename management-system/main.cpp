@@ -4,6 +4,8 @@
 #include "addPerson.h"
 #include "showPerson.h"
 #include "deletePerson.cpp"
+#include "isExist.h"
+
 
 using namespace std;
 
