@@ -10,9 +10,9 @@ void deletePerson(Addressbooks * abs)
 {
     cout << "请输入您要删除的联系人" << endl;
     string name;
-    cin >> name;
+    cin >> name;  
 
-    int ret = isExist(abs, name);
+    int ret = isExist(abs, name); 
     if (ret != -1)
     {
         for(int i = ret; i< abs -> size; i++)
