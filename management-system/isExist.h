@@ -1,3 +1,6 @@
+#ifndef _ISEXIST_H
+#define _ISEXIST_H
+
 #include <iostream>
 #include <unistd.h>
 #include <string>
@@ -15,3 +18,5 @@ int isExist(Addressbooks * abs, string name)
     }
     return -1;
 }
+
+#endif

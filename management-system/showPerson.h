@@ -22,7 +22,7 @@ void showPerson(Addressbooks * abs)
             cout << "联系电话：" << abs -> personarr[i].phone << endl;
             cout << "家庭住址：" << abs -> personarr[i].address << endl;
             cout << "**************" << endl;
-            system("clear");
+            // system("clear");
         }
     }
 }

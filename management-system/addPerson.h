@@ -1,8 +1,12 @@
+#ifndef _ADDPERSON_H
+#define _ADDPERSON_H
 #include <iostream>
 #include <string>
 #include <stdio.h>
 #include <unistd.h>
 using namespace std; 
+
+
 
 // 通讯录最大人数
 #define MAX 1000
@@ -84,6 +88,8 @@ void addPerson(Addressbooks * abs)
         system("clear");
     }
 }
+
+#endif
 
 // int main()
 // {

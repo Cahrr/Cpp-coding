@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
-#include "showMenu.h"
 #include "addPerson.h"
+#include "showMenu.h"
 #include "showPerson.h"
-#include "deletePerson.cpp"
+#include "deletePerson.h"
 #include "isExist.h"
 
 
