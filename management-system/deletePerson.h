@@ -21,9 +21,9 @@ void deletePerson(Addressbooks * abs)
         }
         abs -> size--;
         cout << "联系人删除成功" << endl;
-    }
+    }  
     else 
-    {
+    {  
         cout << "无此联系人" << endl;
     }
     // system("clear");
